@@ -15,22 +15,10 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 3,
-  "iteration": 1580932320928,
+  "id": 2,
+  "iteration": 1580957171580,
   "links": [],
   "panels": [
-    {
-      "datasource": null,
-      "gridPos": {
-        "h": 1,
-        "w": 24,
-        "x": 0,
-        "y": 0
-      },
-      "id": 72,
-      "title": "Row title",
-      "type": "row"
-    },
     {
       "collapsed": false,
       "datasource": null,
@@ -38,7 +26,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 1
+        "y": 0
       },
       "id": 40,
       "panels": [],
@@ -69,7 +57,7 @@
         "h": 4,
         "w": 3,
         "x": 0,
-        "y": 2
+        "y": 1
       },
       "id": 22,
       "interval": null,
@@ -155,7 +143,7 @@
         "h": 4,
         "w": 3,
         "x": 3,
-        "y": 2
+        "y": 1
       },
       "id": 16,
       "interval": null,
@@ -241,7 +229,7 @@
         "h": 4,
         "w": 3,
         "x": 6,
-        "y": 2
+        "y": 1
       },
       "id": 18,
       "interval": null,
@@ -315,7 +303,7 @@
       ],
       "datasource": null,
       "decimals": 0,
-      "format": "percent",
+      "format": "percentunit",
       "gauge": {
         "maxValue": 100,
         "minValue": 0,
@@ -327,7 +315,7 @@
         "h": 4,
         "w": 3,
         "x": 9,
-        "y": 2
+        "y": 1
       },
       "id": 20,
       "interval": null,
@@ -413,7 +401,7 @@
         "h": 4,
         "w": 3,
         "x": 12,
-        "y": 2
+        "y": 1
       },
       "id": 24,
       "interval": null,
@@ -499,7 +487,7 @@
         "h": 4,
         "w": 3,
         "x": 15,
-        "y": 2
+        "y": 1
       },
       "id": 36,
       "interval": null,
@@ -585,7 +573,7 @@
         "h": 4,
         "w": 3,
         "x": 18,
-        "y": 2
+        "y": 1
       },
       "id": 38,
       "interval": null,
@@ -671,7 +659,7 @@
         "h": 4,
         "w": 3,
         "x": 21,
-        "y": 2
+        "y": 1
       },
       "id": 70,
       "interval": null,
@@ -740,7 +728,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 6
+        "y": 5
       },
       "id": 44,
       "panels": [],
@@ -771,7 +759,7 @@
         "h": 4,
         "w": 3,
         "x": 0,
-        "y": 7
+        "y": 6
       },
       "id": 56,
       "interval": null,
@@ -857,7 +845,7 @@
         "h": 4,
         "w": 3,
         "x": 3,
-        "y": 7
+        "y": 6
       },
       "id": 50,
       "interval": null,
@@ -943,7 +931,7 @@
         "h": 4,
         "w": 3,
         "x": 6,
-        "y": 7
+        "y": 6
       },
       "id": 52,
       "interval": null,
@@ -1029,7 +1017,7 @@
         "h": 4,
         "w": 3,
         "x": 9,
-        "y": 7
+        "y": 6
       },
       "id": 48,
       "interval": null,
@@ -1115,7 +1103,7 @@
         "h": 4,
         "w": 3,
         "x": 12,
-        "y": 7
+        "y": 6
       },
       "id": 54,
       "interval": null,
@@ -1200,7 +1188,7 @@
         "h": 4,
         "w": 3,
         "x": 15,
-        "y": 7
+        "y": 6
       },
       "id": 58,
       "interval": null,
@@ -1301,7 +1289,7 @@
         "h": 4,
         "w": 3,
         "x": 18,
-        "y": 7
+        "y": 6
       },
       "id": 60,
       "interval": null,
@@ -1375,7 +1363,7 @@
         "h": 4,
         "w": 3,
         "x": 21,
-        "y": 7
+        "y": 6
       },
       "hiddenSeries": false,
       "id": 64,
@@ -1469,7 +1457,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 11
+        "y": 10
       },
       "id": 42,
       "panels": [],
@@ -1488,7 +1476,7 @@
         "h": 8,
         "w": 12,
         "x": 0,
-        "y": 12
+        "y": 11
       },
       "hiddenSeries": false,
       "id": 32,
@@ -1592,7 +1580,7 @@
         "h": 8,
         "w": 12,
         "x": 12,
-        "y": 12
+        "y": 11
       },
       "hiddenSeries": false,
       "id": 2,
@@ -1695,7 +1683,7 @@
         "h": 8,
         "w": 12,
         "x": 0,
-        "y": 20
+        "y": 19
       },
       "hiddenSeries": false,
       "id": 76,
@@ -1810,7 +1798,7 @@
         "h": 8,
         "w": 12,
         "x": 12,
-        "y": 20
+        "y": 19
       },
       "hiddenSeries": false,
       "id": 74,
@@ -1850,7 +1838,7 @@
           "refId": "B"
         },
         {
-          "expr": "sum(rate(fastly_rt_pass_time_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate]) + rate(fastly_rt_miss_time_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate]))/ sum(rate(fastly_rt_pass_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate]) + rate(fastly_rt_miss_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate]))",
+          "expr": "sum(rate(fastly_rt_miss_duration_seconds_sum{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) / sum(rate(fastly_rt_miss_duration_seconds_count{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate]))",
           "legendFormat": "Mean",
           "refId": "C"
         }
@@ -1904,7 +1892,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 28
+        "y": 27
       },
       "id": 34,
       "panels": [
@@ -1920,17 +1908,17 @@
             "h": 8,
             "w": 12,
             "x": 0,
-            "y": 29
+            "y": 28
           },
           "hiddenSeries": false,
           "id": 6,
           "legend": {
-            "alignAsTable": true,
+            "alignAsTable": false,
             "avg": true,
             "current": false,
-            "max": true,
+            "max": false,
             "min": false,
-            "rightSide": true,
+            "rightSide": false,
             "show": true,
             "sort": "max",
             "sortDesc": true,
@@ -2012,19 +2000,19 @@
             "h": 8,
             "w": 12,
             "x": 12,
-            "y": 29
+            "y": 28
           },
           "hiddenSeries": false,
           "id": 8,
           "legend": {
-            "alignAsTable": true,
+            "alignAsTable": false,
             "avg": true,
             "current": false,
             "hideEmpty": true,
             "hideZero": true,
-            "max": true,
-            "min": true,
-            "rightSide": true,
+            "max": false,
+            "min": false,
+            "rightSide": false,
             "show": true,
             "sort": "max",
             "sortDesc": true,
@@ -2106,19 +2094,19 @@
             "h": 8,
             "w": 12,
             "x": 0,
-            "y": 37
+            "y": 36
           },
           "hiddenSeries": false,
           "id": 10,
           "legend": {
-            "alignAsTable": true,
+            "alignAsTable": false,
             "avg": true,
             "current": false,
             "hideEmpty": true,
             "hideZero": true,
-            "max": true,
-            "min": true,
-            "rightSide": true,
+            "max": false,
+            "min": false,
+            "rightSide": false,
             "show": true,
             "sort": "max",
             "sortDesc": true,
@@ -2208,19 +2196,19 @@
             "h": 8,
             "w": 12,
             "x": 12,
-            "y": 37
+            "y": 36
           },
           "hiddenSeries": false,
           "id": 12,
           "legend": {
-            "alignAsTable": true,
+            "alignAsTable": false,
             "avg": true,
             "current": false,
             "hideEmpty": true,
             "hideZero": true,
-            "max": true,
-            "min": true,
-            "rightSide": true,
+            "max": false,
+            "min": false,
+            "rightSide": false,
             "show": true,
             "sort": "max",
             "sortDesc": true,
@@ -2289,99 +2277,46 @@
             "align": false,
             "alignLevel": null
           }
-        },
-        {
-          "cards": {
-            "cardPadding": null,
-            "cardRound": null
-          },
-          "color": {
-            "cardColor": "#73BF69",
-            "colorScale": "linear",
-            "colorScheme": "interpolateSpectral",
-            "exponent": 0.6,
-            "min": null,
-            "mode": "opacity"
-          },
-          "dataFormat": "tsbuckets",
-          "datasource": null,
-          "gridPos": {
-            "h": 8,
-            "w": 24,
-            "x": 0,
-            "y": 45
-          },
-          "heatmap": {},
-          "hideZeroBuckets": true,
-          "highlightCards": true,
-          "id": 68,
-          "legend": {
-            "show": true
-          },
-          "options": {},
-          "reverseYBuckets": false,
-          "targets": [
-            {
-              "expr": "sum(rate(fastly_rt_miss_duration_seconds_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le)",
-              "format": "heatmap",
-              "legendFormat": "{{le}}",
-              "refId": "A"
-            }
-          ],
-          "timeFrom": null,
-          "timeShift": null,
-          "title": "ORIGIN LATENCY",
-          "tooltip": {
-            "show": true,
-            "showHistogram": true
-          },
-          "tooltipDecimals": null,
-          "transparent": true,
-          "type": "heatmap",
-          "xAxis": {
-            "show": true
-          },
-          "xBucketNumber": null,
-          "xBucketSize": null,
-          "yAxis": {
-            "decimals": 0,
-            "format": "s",
-            "logBase": 1,
-            "max": null,
-            "min": null,
-            "show": true,
-            "splitFactor": null
-          },
-          "yBucketBound": "auto",
-          "yBucketNumber": null,
-          "yBucketSize": null
-        },
+        }
+      ],
+      "title": "HTTP STATUS CODES BREAKDOWN",
+      "type": "row"
+    },
+    {
+      "collapsed": true,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 28
+      },
+      "id": 72,
+      "panels": [
         {
           "aliasColors": {},
           "bars": false,
           "dashLength": 10,
           "dashes": false,
           "datasource": null,
+          "description": "",
           "fill": 1,
           "fillGradient": 0,
           "gridPos": {
             "h": 8,
             "w": 12,
             "x": 0,
-            "y": 53
+            "y": 29
           },
           "hiddenSeries": false,
-          "id": 30,
+          "id": 77,
+          "interval": "",
           "legend": {
-            "alignAsTable": true,
             "avg": true,
             "current": false,
-            "max": true,
+            "max": false,
             "min": false,
-            "rightSide": true,
             "show": true,
-            "sort": "max",
-            "sortDesc": true,
             "total": false,
             "values": true
           },
@@ -2401,21 +2336,26 @@
           "steppedLine": false,
           "targets": [
             {
-              "expr": "sum(rate(fastly_rt_req_header_bytes_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) / sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate]))",
-              "legendFormat": "Request",
+              "expr": "histogram_quantile(0.99,sum(rate(fastly_rt_object_size_bytes_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le))",
+              "legendFormat": "P99",
               "refId": "A"
             },
             {
-              "expr": "sum(rate(fastly_rt_resp_header_bytes_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) / sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate]))",
-              "legendFormat": "Response",
+              "expr": "histogram_quantile(0.5,sum(rate(fastly_rt_object_size_bytes_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le))",
+              "legendFormat": "P50",
               "refId": "B"
+            },
+            {
+              "expr": "sum(rate(fastly_rt_object_size_bytes_sum{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) / sum(rate(fastly_rt_object_size_bytes_count{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) ",
+              "legendFormat": "Mean",
+              "refId": "C"
             }
           ],
           "thresholds": [],
           "timeFrom": null,
           "timeRegions": [],
           "timeShift": null,
-          "title": "Average Header Size",
+          "title": "OBJECT SIZE",
           "tooltip": {
             "shared": true,
             "sort": 2,
@@ -2432,7 +2372,7 @@
           },
           "yaxes": [
             {
-              "decimals": 1,
+              "decimals": null,
               "format": "decbytes",
               "label": null,
               "logBase": 1,
@@ -2466,278 +2406,7 @@
             "h": 8,
             "w": 12,
             "x": 12,
-            "y": 53
-          },
-          "hiddenSeries": false,
-          "id": 26,
-          "legend": {
-            "alignAsTable": true,
-            "avg": true,
-            "current": false,
-            "max": false,
-            "min": false,
-            "rightSide": true,
-            "show": true,
-            "sort": "avg",
-            "sortDesc": true,
-            "total": false,
-            "values": true
-          },
-          "lines": true,
-          "linewidth": 1,
-          "nullPointMode": "null",
-          "options": {
-            "dataLinks": []
-          },
-          "percentage": false,
-          "pointradius": 2,
-          "points": false,
-          "renderer": "flot",
-          "seriesOverrides": [],
-          "spaceLength": 10,
-          "stack": false,
-          "steppedLine": false,
-          "targets": [
-            {
-              "expr": "sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate])) by (datacenter)",
-              "legendFormat": "{{datacenter}}",
-              "refId": "A"
-            }
-          ],
-          "thresholds": [],
-          "timeFrom": null,
-          "timeRegions": [],
-          "timeShift": null,
-          "title": "REQUESTS per DATACENTER",
-          "tooltip": {
-            "shared": true,
-            "sort": 2,
-            "value_type": "individual"
-          },
-          "type": "graph",
-          "xaxis": {
-            "buckets": null,
-            "mode": "time",
-            "name": null,
-            "show": true,
-            "values": []
-          },
-          "yaxes": [
-            {
-              "format": "short",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            },
-            {
-              "format": "short",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            }
-          ],
-          "yaxis": {
-            "align": false,
-            "alignLevel": null
-          }
-        },
-        {
-          "aliasColors": {},
-          "bars": false,
-          "dashLength": 10,
-          "dashes": false,
-          "datasource": null,
-          "fill": 1,
-          "fillGradient": 0,
-          "gridPos": {
-            "h": 8,
-            "w": 12,
-            "x": 0,
-            "y": 61
-          },
-          "hiddenSeries": false,
-          "id": 4,
-          "legend": {
-            "avg": false,
-            "current": false,
-            "max": false,
-            "min": false,
-            "show": true,
-            "total": false,
-            "values": false
-          },
-          "lines": true,
-          "linewidth": 1,
-          "nullPointMode": "null",
-          "options": {
-            "dataLinks": []
-          },
-          "percentage": false,
-          "pointradius": 2,
-          "points": false,
-          "renderer": "flot",
-          "seriesOverrides": [],
-          "spaceLength": 10,
-          "stack": false,
-          "steppedLine": false,
-          "targets": [
-            {
-              "expr": "sum(rate(fastly_rt_errors_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) ",
-              "legendFormat": "ERRORS",
-              "refId": "A"
-            }
-          ],
-          "thresholds": [],
-          "timeFrom": null,
-          "timeRegions": [],
-          "timeShift": null,
-          "title": "Panel Title",
-          "tooltip": {
-            "shared": true,
-            "sort": 0,
-            "value_type": "individual"
-          },
-          "type": "graph",
-          "xaxis": {
-            "buckets": null,
-            "mode": "time",
-            "name": null,
-            "show": true,
-            "values": []
-          },
-          "yaxes": [
-            {
-              "format": "short",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            },
-            {
-              "format": "short",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            }
-          ],
-          "yaxis": {
-            "align": false,
-            "alignLevel": null
-          }
-        },
-        {
-          "aliasColors": {},
-          "bars": false,
-          "dashLength": 10,
-          "dashes": false,
-          "datasource": null,
-          "fill": 1,
-          "fillGradient": 0,
-          "gridPos": {
-            "h": 8,
-            "w": 12,
-            "x": 12,
-            "y": 61
-          },
-          "hiddenSeries": false,
-          "id": 28,
-          "legend": {
-            "alignAsTable": true,
-            "avg": true,
-            "current": false,
-            "max": true,
-            "min": false,
-            "rightSide": true,
-            "show": true,
-            "sort": "max",
-            "sortDesc": true,
-            "total": false,
-            "values": true
-          },
-          "lines": true,
-          "linewidth": 1,
-          "nullPointMode": "null",
-          "options": {
-            "dataLinks": []
-          },
-          "percentage": false,
-          "pointradius": 2,
-          "points": false,
-          "renderer": "flot",
-          "seriesOverrides": [],
-          "spaceLength": 10,
-          "stack": false,
-          "steppedLine": false,
-          "targets": [
-            {
-              "expr": "sum(rate(fastly_rt_status_group_total{service_name=~\"$service_name\",service_id=~\"$service_id\", status_group=\"5xx\", datacenter=~\"$datacenter\"}[30s])) by (datacenter) / sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate])) by (datacenter)",
-              "legendFormat": "{{datacenter}}",
-              "refId": "A"
-            }
-          ],
-          "thresholds": [],
-          "timeFrom": null,
-          "timeRegions": [],
-          "timeShift": null,
-          "title": "5XX per REQUEST by DATACENTER",
-          "tooltip": {
-            "shared": true,
-            "sort": 2,
-            "value_type": "individual"
-          },
-          "transparent": true,
-          "type": "graph",
-          "xaxis": {
-            "buckets": null,
-            "mode": "time",
-            "name": null,
-            "show": true,
-            "values": []
-          },
-          "yaxes": [
-            {
-              "decimals": 0,
-              "format": "percentunit",
-              "label": null,
-              "logBase": 1,
-              "max": "1",
-              "min": "0",
-              "show": true
-            },
-            {
-              "format": "short",
-              "label": null,
-              "logBase": 1,
-              "max": null,
-              "min": null,
-              "show": true
-            }
-          ],
-          "yaxis": {
-            "align": false,
-            "alignLevel": null
-          }
-        },
-        {
-          "aliasColors": {},
-          "bars": false,
-          "dashLength": 10,
-          "dashes": false,
-          "datasource": null,
-          "fill": 1,
-          "fillGradient": 0,
-          "gridPos": {
-            "h": 8,
-            "w": 24,
-            "x": 0,
-            "y": 69
+            "y": 29
           },
           "hiddenSeries": false,
           "id": 66,
@@ -2849,95 +2518,31 @@
           }
         },
         {
-          "cards": {
-            "cardPadding": null,
-            "cardRound": null
-          },
-          "color": {
-            "cardColor": "#73BF69",
-            "colorScale": "linear",
-            "colorScheme": "interpolateSpectral",
-            "exponent": 0.6,
-            "min": null,
-            "mode": "opacity"
-          },
-          "dataFormat": "tsbuckets",
-          "datasource": null,
-          "gridPos": {
-            "h": 8,
-            "w": 12,
-            "x": 0,
-            "y": 77
-          },
-          "heatmap": {},
-          "hideZeroBuckets": true,
-          "highlightCards": true,
-          "id": 78,
-          "legend": {
-            "show": true
-          },
-          "options": {},
-          "reverseYBuckets": false,
-          "targets": [
-            {
-              "expr": "sum(rate(fastly_rt_object_size_bytes_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le)",
-              "format": "heatmap",
-              "legendFormat": "{{le}}",
-              "refId": "A"
-            }
-          ],
-          "timeFrom": null,
-          "timeShift": null,
-          "title": "OBJECT SIZE",
-          "tooltip": {
-            "show": true,
-            "showHistogram": true
-          },
-          "tooltipDecimals": null,
-          "transparent": true,
-          "type": "heatmap",
-          "xAxis": {
-            "show": true
-          },
-          "xBucketNumber": null,
-          "xBucketSize": null,
-          "yAxis": {
-            "decimals": 0,
-            "format": "decbytes",
-            "logBase": 1,
-            "max": null,
-            "min": null,
-            "show": true,
-            "splitFactor": null
-          },
-          "yBucketBound": "auto",
-          "yBucketNumber": null,
-          "yBucketSize": null
-        },
-        {
           "aliasColors": {},
           "bars": false,
           "dashLength": 10,
           "dashes": false,
           "datasource": null,
-          "description": "",
           "fill": 1,
           "fillGradient": 0,
           "gridPos": {
             "h": 8,
             "w": 12,
-            "x": 12,
-            "y": 77
+            "x": 0,
+            "y": 37
           },
           "hiddenSeries": false,
-          "id": 77,
-          "interval": "",
+          "id": 30,
           "legend": {
+            "alignAsTable": false,
             "avg": true,
             "current": false,
             "max": false,
             "min": false,
+            "rightSide": false,
             "show": true,
+            "sort": "max",
+            "sortDesc": true,
             "total": false,
             "values": true
           },
@@ -2957,26 +2562,21 @@
           "steppedLine": false,
           "targets": [
             {
-              "expr": "histogram_quantile(0.99,sum(rate(fastly_rt_object_size_bytes_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le))",
-              "legendFormat": "{{99th Percentile}}",
+              "expr": "sum(rate(fastly_rt_req_header_bytes_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) / sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate]))",
+              "legendFormat": "Request",
               "refId": "A"
             },
             {
-              "expr": "histogram_quantile(0.95,sum(rate(fastly_rt_object_size_bytes_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le))",
-              "legendFormat": "{{95th Percentile}}",
+              "expr": "sum(rate(fastly_rt_resp_header_bytes_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) / sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate]))",
+              "legendFormat": "Response",
               "refId": "B"
-            },
-            {
-              "expr": "histogram_quantile(0.90,sum(rate(fastly_rt_object_size_bytes_bucket{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\"}[$rate])) by (le))",
-              "legendFormat": "{{90th Percentile}}",
-              "refId": "C"
             }
           ],
           "thresholds": [],
           "timeFrom": null,
           "timeRegions": [],
           "timeShift": null,
-          "title": "OBJECT SIZE",
+          "title": "Average Header Size",
           "tooltip": {
             "shared": true,
             "sort": 2,
@@ -2993,7 +2593,7 @@
           },
           "yaxes": [
             {
-              "decimals": null,
+              "decimals": 1,
               "format": "decbytes",
               "label": null,
               "logBase": 1,
@@ -3014,9 +2614,193 @@
             "align": false,
             "alignLevel": null
           }
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "dashLength": 10,
+          "dashes": false,
+          "datasource": null,
+          "fill": 1,
+          "fillGradient": 0,
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 12,
+            "y": 37
+          },
+          "hiddenSeries": false,
+          "id": 26,
+          "legend": {
+            "alignAsTable": true,
+            "avg": true,
+            "current": false,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "sort": "avg",
+            "sortDesc": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 1,
+          "nullPointMode": "null",
+          "options": {
+            "dataLinks": []
+          },
+          "percentage": false,
+          "pointradius": 2,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "spaceLength": 10,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "expr": "sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate])) by (datacenter)",
+              "legendFormat": "{{datacenter}}",
+              "refId": "A"
+            }
+          ],
+          "thresholds": [],
+          "timeFrom": null,
+          "timeRegions": [],
+          "timeShift": null,
+          "title": "REQUESTS per DATACENTER",
+          "tooltip": {
+            "shared": true,
+            "sort": 2,
+            "value_type": "individual"
+          },
+          "type": "graph",
+          "xaxis": {
+            "buckets": null,
+            "mode": "time",
+            "name": null,
+            "show": true,
+            "values": []
+          },
+          "yaxes": [
+            {
+              "format": "short",
+              "label": null,
+              "logBase": 1,
+              "max": null,
+              "min": null,
+              "show": true
+            },
+            {
+              "format": "short",
+              "label": null,
+              "logBase": 1,
+              "max": null,
+              "min": null,
+              "show": true
+            }
+          ],
+          "yaxis": {
+            "align": false,
+            "alignLevel": null
+          }
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "dashLength": 10,
+          "dashes": false,
+          "datasource": null,
+          "fill": 1,
+          "fillGradient": 0,
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 12,
+            "y": 45
+          },
+          "hiddenSeries": false,
+          "id": 28,
+          "legend": {
+            "alignAsTable": true,
+            "avg": true,
+            "current": false,
+            "max": true,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "sort": "max",
+            "sortDesc": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 1,
+          "nullPointMode": "null",
+          "options": {
+            "dataLinks": []
+          },
+          "percentage": false,
+          "pointradius": 2,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "spaceLength": 10,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "expr": "sum(rate(fastly_rt_status_group_total{service_name=~\"$service_name\",service_id=~\"$service_id\", status_group=\"5xx\", datacenter=~\"$datacenter\"}[30s])) by (datacenter) / sum(rate(fastly_rt_requests_total{service_name=~\"$service_name\", service_id=~\"$service_id\", datacenter=~\"$datacenter\",}[$rate])) by (datacenter)",
+              "legendFormat": "{{datacenter}}",
+              "refId": "A"
+            }
+          ],
+          "thresholds": [],
+          "timeFrom": null,
+          "timeRegions": [],
+          "timeShift": null,
+          "title": "5XX per REQUEST by DATACENTER",
+          "tooltip": {
+            "shared": true,
+            "sort": 2,
+            "value_type": "individual"
+          },
+          "transparent": true,
+          "type": "graph",
+          "xaxis": {
+            "buckets": null,
+            "mode": "time",
+            "name": null,
+            "show": true,
+            "values": []
+          },
+          "yaxes": [
+            {
+              "decimals": 0,
+              "format": "percentunit",
+              "label": null,
+              "logBase": 1,
+              "max": "1",
+              "min": "0",
+              "show": true
+            },
+            {
+              "format": "short",
+              "label": null,
+              "logBase": 1,
+              "max": null,
+              "min": null,
+              "show": true
+            }
+          ],
+          "yaxis": {
+            "align": false,
+            "alignLevel": null
+          }
         }
       ],
-      "title": "HTTP STATUS CODES BREAKDOWN",
+      "title": "MISC",
       "type": "row"
     }
   ],
@@ -3031,9 +2815,9 @@
       {
         "allValue": ".+",
         "current": {
-          "text": "PRD115: EDP  prod - TF",
+          "text": "m.ticketmaster.com",
           "value": [
-            "PRD115: EDP  prod - TF"
+            "m.ticketmaster.com"
           ]
         },
         "datasource": "Prometheus",
@@ -3205,5 +2989,5 @@
   "timezone": "",
   "title": "Fastly Service",
   "uid": "nwscINyZk",
-  "version": 73
+  "version": 5
 }
