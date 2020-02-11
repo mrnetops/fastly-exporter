@@ -69,23 +69,13 @@
         "dataLinks": [
           {
             "targetBlank": true,
+            "title": "Service Dashboard",
+            "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+          },
+          {
+            "targetBlank": true,
             "title": "Fastly Configuration",
             "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
-          },
-          {
-            "targetBlank": true,
-            "title": "Fastly Stats",
-            "url": "https://manage.fastly.com/stats/real-time/services/${__field.labels.service_id}/datacenters/all"
-          },
-          {
-            "targetBlank": true,
-            "title": "Service Dashboard",
-            "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}"
-          },
-          {
-            "targetBlank": true,
-            "title": "Fastly Dashboard",
-            "url": "/d/SHjM6e-ik/fastly-dashboard?var-service_id=${__field.labels.service_id}"
           }
         ]
       },
@@ -182,21 +172,13 @@
         "dataLinks": [
           {
             "targetBlank": true,
-            "title": "Fastly Configuration",
-            "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+            "title": "Service Dashboard",
+            "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
           },
           {
             "targetBlank": true,
-            "title": "Fastly Stats",
-            "url": "https://manage.fastly.com/stats/real-time/services/${__field.labels.service_id}﻿/datacenters/all"
-          },
-          {
-            "title": "Service Dashboard",
-            "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}"
-          },
-          {
-            "title": "Fastly Dashboard",
-            "url": "/d/SHjM6e-ik/fastly-dashboard?var-service_id=${__field.labels.service_id}"
+            "title": "Fastly Configuration",
+            "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
           }
         ]
       },
@@ -290,7 +272,18 @@
       "linewidth": 1,
       "nullPointMode": "null",
       "options": {
-        "dataLinks": []
+        "dataLinks": [
+		  {
+		    "targetBlank": true,
+		    "title": "Service Dashboard",
+		    "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+		  },
+		  {
+		    "targetBlank": true,
+		    "title": "Fastly Configuration",
+		    "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+		  }
+	]
       },
       "percentage": false,
       "pointradius": 2,
@@ -489,20 +482,14 @@
       "options": {
         "dataLinks": [
           {
+            "targetBlank": true,
+            "title": "Service Dashboard",
+            "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+          },
+          {
+            "targetBlank": true,
             "title": "Fastly Configuration",
             "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
-          },
-          {
-            "title": "Fastly Stats",
-            "url": "https://manage.fastly.com/stats/real-time/services/${__field.labels.service_id}﻿/datacenters/all"
-          },
-          {
-            "title": "Service Dashboard",
-            "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}"
-          },
-          {
-            "title": "Fastly Dashboard",
-            "url": "/d/SHjM6e-ik/fastly-dashboard?var-service_id=${__field.labels.service_id}"
           }
         ]
       },
@@ -596,7 +583,18 @@
       "linewidth": 1,
       "nullPointMode": "null",
       "options": {
-        "dataLinks": []
+        "dataLinks": [
+		  {
+		    "targetBlank": true,
+		    "title": "Service Dashboard",
+		    "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+		  },
+		  {
+		    "targetBlank": true,
+		    "title": "Fastly Configuration",
+		    "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+		  }
+	]
       },
       "percentage": false,
       "pointradius": 2,
@@ -703,22 +701,16 @@
           "nullPointMode": "null",
           "options": {
             "dataLinks": [
-              {
-                "title": "Fastly Configuration",
-                "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
-              },
-              {
-                "title": "Fastly Stats",
-                "url": "https://manage.fastly.com/stats/real-time/services/${__field.labels.service_id}﻿/datacenters/all"
-              },
-              {
-                "title": "Service Dashboard",
-                "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}"
-              },
-              {
-                "title": "Fastly Dashboard",
-                "url": "/d/SHjM6e-ik/fastly-dashboard?var-service_id=${__field.labels.service_id}"
-              }
+		  {
+		    "targetBlank": true,
+		    "title": "Service Dashboard",
+		    "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+		  },
+		  {
+		    "targetBlank": true,
+		    "title": "Fastly Configuration",
+		    "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+		  }
             ]
           },
           "percentage": false,
@@ -811,7 +803,18 @@
           "linewidth": 1,
           "nullPointMode": "null",
           "options": {
-            "dataLinks": []
+            "dataLinks": [
+		  {
+		    "targetBlank": true,
+		    "title": "Service Dashboard",
+		    "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+		  },
+		  {
+		    "targetBlank": true,
+		    "title": "Fastly Configuration",
+		    "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+		  }
+	    ]
           },
           "percentage": false,
           "pointradius": 2,
@@ -903,7 +906,18 @@
           "linewidth": 1,
           "nullPointMode": "null",
           "options": {
-            "dataLinks": []
+            "dataLinks": [
+		  {
+		    "targetBlank": true,
+		    "title": "Service Dashboard",
+		    "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+		  },
+		  {
+		    "targetBlank": true,
+		    "title": "Fastly Configuration",
+		    "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+		  }
+	    ]
           },
           "percentage": false,
           "pointradius": 2,
@@ -996,7 +1010,18 @@
           "linewidth": 1,
           "nullPointMode": "null",
           "options": {
-            "dataLinks": []
+            "dataLinks": [
+		  {
+		    "targetBlank": true,
+		    "title": "Service Dashboard",
+		    "url": "/d/nwscINyZk/fastly-service?var-service_id=${__field.labels.service_id}&${__url_time_range}"
+		  },
+		  {
+		    "targetBlank": true,
+		    "title": "Fastly Configuration",
+		    "url": "https://manage.fastly.com/configure/services/${__field.labels.service_id}"
+		  }
+	    ]
           },
           "percentage": false,
           "pointradius": 2,
