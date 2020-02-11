@@ -16,7 +16,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 2,
-  "iteration": 1580957171580,
+  "iteration": 1581456475045,
   "links": [],
   "panels": [
     {
@@ -302,7 +302,7 @@
         "#d44a3a"
       ],
       "datasource": null,
-      "decimals": 0,
+      "decimals": 1,
       "format": "percentunit",
       "gauge": {
         "maxValue": 100,
@@ -388,7 +388,7 @@
         "#d44a3a"
       ],
       "datasource": null,
-      "decimals": 0,
+      "decimals": 1,
       "format": "percentunit",
       "gauge": {
         "maxValue": 100,
@@ -646,7 +646,7 @@
       ],
       "datasource": null,
       "decimals": null,
-      "description": "Average Origin Response Time.\n\nThresholds from https://www.littledata.io/average/server-response-time",
+      "description": "Thresholds from https://www.littledata.io/average/server-response-time",
       "format": "s",
       "gauge": {
         "maxValue": 100,
@@ -2815,9 +2815,9 @@
       {
         "allValue": ".+",
         "current": {
-          "text": "m.ticketmaster.com",
+          "text": "All",
           "value": [
-            "m.ticketmaster.com"
+            "$__all"
           ]
         },
         "datasource": "Prometheus",
@@ -2825,7 +2825,7 @@
         "hide": 0,
         "includeAll": true,
         "label": "Service Name",
-        "multi": true,
+        "multi": false,
         "name": "service_name",
         "options": [],
         "query": "label_values(fastly_rt_requests_total, service_name)",
@@ -2989,5 +2989,5 @@
   "timezone": "",
   "title": "Fastly Service",
   "uid": "nwscINyZk",
-  "version": 5
+  "version": 3
 }
